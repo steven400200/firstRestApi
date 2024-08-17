@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/firstRestApi.iml" filepath="$PROJECT_DIR$/.idea/firstRestApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstRestApi.firstRestApi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/firstRestApi.firstRestApi.main.iml" />
     </modules>
   </component>
 </project>
