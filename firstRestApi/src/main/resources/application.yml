@@ -1,0 +1,40 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active:  dev
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+  application:
+    name: firstRestApi
+  datasource:
+    password: Contrerassteven123
+    url: jdbc:mysql://localhost:3306/empresadb
+    username: root
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  application:
+    name: firstRestApi
+  datasource:
+    password: Contrerassteven123
+    url: jdbc:mysql://localhost:3306/empresadb
+    username: root
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+
