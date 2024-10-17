@@ -12,7 +12,7 @@ spring:
   application:
     name: firstRestApi
   datasource:
-    password: Contrerassteven123
+    password: 
     url: jdbc:mysql://localhost:3306/empresadb
     username: root
   jpa:
